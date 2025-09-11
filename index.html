@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">Amazon</div>
+    <input type="text" class="search-bar" placeholder="Search products..." />
+    <nav class="nav-links">
+      <a href="#">Home</a>
+      <a href="#">Deals</a>
+      <a href="#">Categories</a>
+      <a href="#cart" class="cart-btn">Cart (<span id="cart-count">0</span>)</a>
+    </nav>
+  </header>
+
+  <!-- Hero Banner -->
+  <section class="hero">
+    <h1>Welcome to Amazon Clone</h1>
+    <p>Shop the best deals here</p>
+  </section>
+
+  <!-- Filters -->
+  <section class="filters">
+    <select id="category-filter">
+      <option value="all">All Categories</option>
+      <option value="electronics">Electronics</option>
+      <option value="fashion">Fashion</option>
+    </select>
+    <select id="sort-filter">
+      <option value="default">Sort By</option>
+      <option value="price-low">Price: Low to High</option>
+      <option value="price-high">Price: High to Low</option>
+    </select>
+  </section>
+
+  <!-- Products Grid -->
+  <section id="products" class="products-grid"></section>
+
+  <!-- Cart Drawer -->
+  <aside id="cart-drawer" class="cart-drawer">
+    <h2>Your Cart</h2>
+    <ul id="cart-items"></ul>
+    <button id="checkout-btn">Checkout</button>
+  </aside>
+<footer class="end">
+   @shyamasish2005
+</footer>
+  
+  <script src="main.js"></script>
+</body>
+</html>
