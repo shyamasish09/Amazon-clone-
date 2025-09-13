@@ -42,7 +42,8 @@ body {
 
 /* Hero Banner */
 .hero-banner {
-  background-image: url('images/pngtree-shopping-mall-supermarket-selection-merchandise-poster-background-material-image_133225.jpg');
+  background-image:
+  url('pngtree-shopping-mall-supermarket-selection-merchandise-poster-background-material-image_133225.jpg');
   background-size: cover;
   background-position: center;
   color: white;
