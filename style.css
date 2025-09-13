@@ -1,4 +1,4 @@
-* {
+j* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -43,7 +43,6 @@ body {
 /* Hero Banner */
 .hero-banner {
   background-color: #8855ed;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1563496130141-0ffecbc1d8ec?auto=format&fit=crop&w=1950&q=80');
   background-size: cover;
   background-position: center;
   color: white;
