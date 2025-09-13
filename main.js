@@ -61,7 +61,7 @@ const products = [
     name: "Desk Lamp", 
     price: 24.99, 
     category: "home", 
-    image: "/photo-1582356630861-61bb9b41f541.jpeg", 
+    image: "photo-1582356630861-61bb9b41f541.jpeg", 
     rating: 4.4 
   },
   { 
